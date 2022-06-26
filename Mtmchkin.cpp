@@ -28,12 +28,11 @@ std::unique_ptr<Monster> Mtmchkin::monsterMaker(const std::string &str)
 std::unique_ptr<Card> Mtmchkin::cardMaker(const std::string &str) const {
     if (str == Goblin::GOBLIN || str == Vampire::VAMPIRE || str == Dragon::DRAGON) {
         return monsterMaker(str);}
-    //TODO: macros
-    else if (str == Merchant::MERCHANT) { return std::unique_ptr<Merchant>(new Merchant); }
-    else if (str == Pitfall::PITFALL) { return std::unique_ptr<Pitfall>(new Pitfall); }
-    else if (str == Treasure::TREASURE) { return std::unique_ptr<Treasure>(new Treasure); }
-    else if (str == Barfight::BARFIGHT) { return std::unique_ptr<Barfight>(new Barfight); }
-    else if (str == Fairy::FAIRY) { return std::unique_ptr<Fairy>(new Fairy); }
+    else if (str == Merchant::MERCHANT) { return std::make_unique<Merchant>(); }
+    else if (str == Pitfall::PITFALL) { return std::make_unique<Pitfall>(); }
+    else if (str == Treasure::TREASURE) { return std::make_unique<Treasure>(); }
+    else if (str == Barfight::BARFIGHT) { return std::make_unique<Barfight>(); }
+    else if (str == Fairy::FAIRY) { return std::make_unique<Fairy>(); }
     else {
         throw DeckFileFormatError(m_line_number);
     }
@@ -89,11 +88,11 @@ bool Mtmchkin::validClass(std::string &class_string) {
 
 std::unique_ptr<Player> playerMaker(std::string &name, std::string &player_class) {
     if (player_class == Rogue::ROGUE) {
-        return std::unique_ptr<Rogue>(new Rogue(name));
+        return std::make_unique<Rogue>(name);
     } else if (player_class == Wizard::WIZARD) {
-        return std::unique_ptr<Wizard>(new Wizard(name));
+        return std::make_unique<Wizard>(name);
     } else if (player_class == Fighter::FIGHTER) {
-        return std::unique_ptr<Fighter>(new Fighter(name));
+        return std::make_unique<Fighter>(name);
     }
     else
     {
@@ -123,7 +122,7 @@ std::unique_ptr<Player> Mtmchkin::getPlayer() {
     std::string input;
     while (true) {
         std::getline(std::cin, input);
-        int position = input.find(SPACE_BAR); //location of the spacebar in the input
+        unsigned int position = input.find(SPACE_BAR); //location of the spacebar in the input
         name = input.substr(0, position); // name is everything until the spacebar.
         try{
             player_class = input.substr(position+1);
