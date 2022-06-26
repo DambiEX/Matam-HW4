@@ -1,0 +1,4 @@
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S "C:\Users\PC\Dropbox\studies\Matam\HW4\hw4 personal git" -B "C:\Users\PC\Dropbox\studies\Matam\HW4\hw4 personal git\cmake-build-debug"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug

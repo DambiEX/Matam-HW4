@@ -1,0 +1,15 @@
+# ninja log v5
+3	1115	6773742111801337	CMakeFiles/ex4.dir/Mtmchkin.cpp.obj	db5ffda4fd5b0230
+30	828	6773741544735450	CMakeFiles/ex4.dir/Cards/Merchant.cpp.obj	7f8f3d4497cef8d0
+27	1113	6773741546922449	CMakeFiles/ex4.dir/utilities.cpp.obj	c16e369306371c76
+46	1254	6773741548484592	CMakeFiles/ex4.dir/Players/Rogue.cpp.obj	3b245185ac17a7c3
+23	1103	6773741546922449	CMakeFiles/ex4.dir/Players/Player.cpp.obj	12db2bc0c433d3ba
+66	1538	6773741551765059	CMakeFiles/ex4.dir/Players/Wizard.cpp.obj	de9f4c369d029633
+1104	2488	6773741561425322	CMakeFiles/ex4.dir/Cards/Barfight.cpp.obj	60b71dc0b7bb41e9
+829	2424	6773741560800482	CMakeFiles/ex4.dir/Players/Fighter.cpp.obj	40d7a021a1fba100
+37	1277	6773741548797009	CMakeFiles/ex4.dir/Cards/Fairy.cpp.obj	2c291d4a6f218c41
+62	1642	6773741552702342	CMakeFiles/ex4.dir/Cards/Treasure.cpp.obj	9b81a8c4f95424ae
+54	1445	6773741550827778	CMakeFiles/ex4.dir/Cards/Pitfall.cpp.obj	4164f05a3727fed
+1278	2303	6773741559550769	CMakeFiles/ex4.dir/Cards/Goblin.cpp.obj	b2a8dd4613432172
+1113	2181	6773741558301066	CMakeFiles/ex4.dir/Cards/Dragon.cpp.obj	a11e324320d2d099
+1255	2245	6773741558769709	CMakeFiles/ex4.dir/Cards/Vampire.cpp.obj	c3f7dd87bf83608b

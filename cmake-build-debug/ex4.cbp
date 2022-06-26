@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ex4"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4">
+				<Option output="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/ex4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4/fast">
+				<Option output="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/ex4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/."/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/.idea/.gitignore">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/.idea/.name">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/.idea/modules.xml">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/.idea/vcs.xml">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/.idea/workspace.xml">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Barfight.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Barfight.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Card.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Card.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Dragon.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Dragon.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Fairy.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Fairy.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Gang.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Gang.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Goblin.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Goblin.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Merchant.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Merchant.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Monster.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Monster.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Pitfall.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Pitfall.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Treasure.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Treasure.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Vampire.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/Vampire.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Cards/all_cards.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Exception.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Exception.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Mtmchkin.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Mtmchkin.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/Fighter.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/Fighter.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/Player.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/Player.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/Rogue.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/Rogue.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/Wizard.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/Wizard.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/Players/all_players.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/deck.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/badFormat_test.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/badFormat_test_start_of_file.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/deck.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/dragonDen_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/empty.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/goblinCave_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/merchantInput_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/noMonster_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/roundLimit_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/inputs/vampireLair_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/test.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tests/allTen_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tests/badPlayerInput_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tests/dragonDen_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tests/goblinCave_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tests/merchantInput_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tests/noMonster_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tests/roundLimit_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tests/vampireLair_test_expected.txt">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/tool/main.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/utilities.cpp">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/utilities.h">
+			<Option target="ex4"/>
+		</Unit>
+		<Unit filename="C:/Users/PC/Dropbox/studies/Matam/HW4/hw4 personal git/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
